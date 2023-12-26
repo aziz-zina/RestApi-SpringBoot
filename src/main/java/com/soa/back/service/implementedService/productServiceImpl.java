@@ -10,7 +10,11 @@ import java.util.List;
 @Service
 public class productServiceImpl implements productService {
 
-    private productRepository prodRepository;
+    private final productRepository prodRepository;
+
+    public productServiceImpl(productRepository prodRepository) {
+        this.prodRepository = prodRepository;
+    }
 
     @Override
     public Product addProduct(Product p) {
