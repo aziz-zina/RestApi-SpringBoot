@@ -3,9 +3,11 @@ package com.soa.back.service.implementedService;
 import com.soa.back.model.Product;
 import com.soa.back.repository.productRepository;
 import com.soa.back.service.productService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class productServiceImpl implements productService {
 
     private productRepository prodRepository;
