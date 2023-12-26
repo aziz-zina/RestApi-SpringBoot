@@ -1,6 +1,5 @@
 package com.soa.back.controller;
 
-import com.soa.back.model.Category;
 import com.soa.back.model.Product;
 import com.soa.back.service.productService;
 import org.springframework.stereotype.Controller;
