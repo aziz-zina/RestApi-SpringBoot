@@ -3,6 +3,7 @@ package com.soa.back.service.implementedService;
 import com.soa.back.model.Product;
 import com.soa.back.repository.productRepository;
 import com.soa.back.service.productService;
+import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -17,6 +18,7 @@ public class productServiceImpl implements productService {
     }
 
     @Override
+    @Transactional
     public Product addProduct(Product p) {
         return prodRepository.save(p);
     }

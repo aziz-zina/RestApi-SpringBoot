@@ -11,6 +11,7 @@ public class Category {
     private int id_category;
     private String name;
 
+    @OneToMany
 
     @Override
     public String toString() {

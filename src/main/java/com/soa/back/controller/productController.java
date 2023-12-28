@@ -24,22 +24,23 @@ public class productController {
     }
 
     @PostMapping("/addProduct")
-    public @ResponseBody Product addCategory(@RequestBody Product product){
+    public @ResponseBody Product addProduct(@RequestBody Product product){
+        System.out.println(product.toString());
         return prodService.addProduct(product);
     }
 
     @GetMapping("/product/{id}")
-    public @ResponseBody Product getCategoryById(@PathVariable int id){
+    public @ResponseBody Product getProductById(@PathVariable int id){
         return prodService.getProductById(id);
     }
 
     @DeleteMapping("/deleteProduct/{id}")
-    public @ResponseBody void deleteCategory(@PathVariable int id){
+    public @ResponseBody void deleteProduct(@PathVariable int id){
         prodService.deleteProduct(id);
     }
 
     @PutMapping("/updateProduct")
-    public @ResponseBody Product updateCategory(@RequestBody Product product){
+    public @ResponseBody Product updateProduct(@RequestBody Product product){
         return prodService.updateProduct(product);
     }
 }

@@ -14,7 +14,7 @@ public class Product {
     private String qte;
     @ManyToOne
     @JoinColumn(name= "id_category")
-    private Category cat;
+    private Category category;
 
 
     @Override
@@ -24,7 +24,7 @@ public class Product {
                 ", lib='" + lib + '\'' +
                 ", prix='" + price + '\'' +
                 ", qte='" + qte + '\'' +
-                ", categorie=" + cat +
+                ", categorie=" + category +
                 '}';
     }
 
@@ -32,7 +32,7 @@ public class Product {
         this.lib = lib;
         this.price = price;
         this.qte = qte;
-        this.cat = cat;
+        this.category = cat;
     }
 
     public Product() { }
@@ -70,10 +70,10 @@ public class Product {
     }
 
     public Category getCategory() {
-        return cat;
+        return category;
     }
 
     public void setCategory(Category cat) {
-        this.cat = cat;
+        this.category = cat;
     }
 }
