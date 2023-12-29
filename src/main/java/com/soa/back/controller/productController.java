@@ -43,4 +43,9 @@ public class productController {
     public @ResponseBody Product updateProduct(@RequestBody Product product){
         return prodService.updateProduct(product);
     }
+
+    @GetMapping("/getProductsByCategoy/{id}")
+    public @ResponseBody List<Product> getProductsByCategory(@PathVariable int id){
+        return prodService.getAllProductsByCategory(id);
+    }
 }

@@ -1,6 +1,7 @@
 package com.soa.back.controller;
 
 import com.soa.back.model.Category;
+import com.soa.back.model.Product;
 import com.soa.back.service.categoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

@@ -1,6 +1,7 @@
 package com.soa.back.service;
 
 import com.soa.back.model.Category;
+import com.soa.back.model.Product;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
@@ -18,4 +19,5 @@ public interface categoryService {
     Category getCategoryById(int id);
 
     List<Category> getAllCategories();
+
 }

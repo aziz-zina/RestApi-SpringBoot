@@ -1,6 +1,7 @@
 package com.soa.back.service.implementedService;
 
 import com.soa.back.model.Category;
+import com.soa.back.model.Product;
 import com.soa.back.repository.categoryRepository;
 import com.soa.back.service.categoryService;
 import org.springframework.stereotype.Service;

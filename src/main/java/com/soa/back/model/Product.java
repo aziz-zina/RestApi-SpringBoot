@@ -8,19 +8,20 @@ public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
-    private int id_product;
+    private int idProduct;
     private String lib;
     private String price;
     private String qte;
+
     @ManyToOne
-    @JoinColumn(name= "id_category")
+    @JoinColumn(name= "idCategory")
     private Category category;
 
 
     @Override
     public String toString() {
         return "product{" +
-                "id_produit=" + id_product +
+                "id_produit=" + idProduct +
                 ", lib='" + lib + '\'' +
                 ", prix='" + price + '\'' +
                 ", qte='" + qte + '\'' +
@@ -38,11 +39,11 @@ public class Product {
     public Product() { }
 
     public int getIdProduct() {
-        return id_product;
+        return idProduct;
     }
 
     public void setIdProduct(int id_product) {
-        this.id_product = id_product;
+        this.idProduct = id_product;
     }
 
     public String getLib() {
