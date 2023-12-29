@@ -4,16 +4,16 @@ import jakarta.persistence.*;
 
 import java.util.Set;
 
-@Entity
-@Table(name = "category")
-public class Category {
-    @Id
-    @GeneratedValue(strategy= GenerationType.IDENTITY)
-    @Column(name="id")
-    private int idCategory;
-    private String name;
+    @Entity
+    @Table(name = "category")
+    public class Category {
+        @Id
+        @GeneratedValue(strategy= GenerationType.IDENTITY)
+        @Column(name="id")
+        private int idCategory;
+        private String name;
 
-    @Override
+        @Override
     public String toString() {
         return "Category{" +
                 "id_category=" + idCategory +
