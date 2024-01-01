@@ -41,6 +41,7 @@ public class productController {
 
     @PutMapping("/updateProduct")
     public @ResponseBody Product updateProduct(@RequestBody Product product){
+        System.out.println(product);
         return prodService.updateProduct(product);
     }
 
