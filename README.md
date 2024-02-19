@@ -17,25 +17,24 @@ Before you begin, ensure that you have the following installed on your computer:
 2. Clone the repository using the following command:
 
    ```bash
-   git clone https://github.com/your-username/your-springboot-project.git
-Replace your-username with your GitHub username and your-springboot-project with the name of your Spring Boot project.
+   git clone https://github.com/aziz-zina/RestApi-SpringBoot
 
-Building the Project
-Navigate to the project directory using the following command:
+## Building the Project
 
-bash
-Copy code
-cd your-springboot-project
-Replace your-springboot-project with the actual name of your Spring Boot project directory.
+1. Navigate to the project directory using the following command:
 
-Build the project using Maven:
+```bash
+cd RestApi-SpringBoot
+```
 
-bash
-Copy code
+2. Build the project using Maven:
+
+```bash
 mvn clean install
-This command will download dependencies and build the project.
+```
+> This command will download dependencies and build the project.
 
-Running the Project
+## Running the Project
 After successfully building the project, you can run it using the following command:
 
 bash
@@ -45,14 +44,14 @@ Replace your-springboot-project with the actual name of your JAR file.
 
 Open a web browser and navigate to http://localhost:8080 to access the application.
 
-Configuration
+## Configuration
 You can customize the application configuration by modifying the application.properties or application.yml file located in the src/main/resources directory.
 
-Additional Notes
+## Additional Notes
 If you encounter any issues during the setup, please refer to the project's documentation or check for specific troubleshooting information in the project's repository.
 
 For more advanced configurations and deployment options, please refer to the official Spring Boot documentation: Spring Boot Documentation
 
 Enjoy coding with your Spring Boot project!
 
-Feel free to update this README file with any project-specific information or additional setup steps based on your project's requirements.
+> Feel free to update this README file with any project-specific information or additional setup steps based on your project's requirements.
