@@ -23,15 +23,15 @@ Before you begin, ensure that you have the following installed on your computer:
 
 1. Navigate to the project directory using the following command:
 
-```bash
-cd RestApi-SpringBoot
-```
+   ```bash
+   cd RestApi-SpringBoot
+   ```
 
 2. Build the project using Maven:
 
-```bash
-mvn clean install
-```
+   ```bash
+   mvn clean install
+   ```
 > This command will download dependencies and build the project.
 
 ## Running the Project
