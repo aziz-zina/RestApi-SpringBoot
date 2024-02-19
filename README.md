@@ -37,21 +37,18 @@ Before you begin, ensure that you have the following installed on your computer:
 ## Running the Project
 After successfully building the project, you can run it using the following command:
 
-bash
-Copy code
-java -jar target/your-springboot-project.jar
-Replace your-springboot-project with the actual name of your JAR file.
+   ```bash
+   java -jar target/RestApi-SpringBoot.jar
+   ```
 
 Open a web browser and navigate to http://localhost:8080 to access the application.
 
 ## Configuration
-You can customize the application configuration by modifying the application.properties or application.yml file located in the src/main/resources directory.
+You can customize the application configuration by modifying the **application.properties** or **application.yml** file located in the **src/main/resources** directory.
 
 ## Additional Notes
-If you encounter any issues during the setup, please refer to the project's documentation or check for specific troubleshooting information in the project's repository.
-
-For more advanced configurations and deployment options, please refer to the official Spring Boot documentation: Spring Boot Documentation
-
-Enjoy coding with your Spring Boot project!
+- If you encounter any issues during the setup, please refer to the project's documentation or check for specific troubleshooting information in the project's repository.
+- For more advanced configurations and deployment options, please refer to the official Spring Boot documentation: <a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/">Spring Boot Documentation</a>
+- Enjoy coding with your Spring Boot project!
 
 > Feel free to update this README file with any project-specific information or additional setup steps based on your project's requirements.
