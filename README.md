@@ -1,6 +1,6 @@
 # Spring Boot Project Setup Guide
 
-This guide provides step-by-step instructions on how to download and set up the Spring Boot project on your computer. The project is designed to [provide a brief description of your project's purpose].
+This guide provides step-by-step instructions on how to download and set up the Spring Boot project on your computer. The project is designed to serve as the backend for an academic project that manages products and their categories. This backend is associated with the corresponding frontend, which can be found at the following link: https://github.com/aziz-zina/Front_RestApi
 
 ## Prerequisites
 
